@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weather Dashboard - Dummy</title>
+  <!-- Panggil CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>Weather Dashboard</h1>
+    <p class="subtitle">Masukkan nama kota untuk melihat cuaca</p>
+
+    <div class="form-row">
+      <input id="cityInput" type="text" placeholder="Mis. Samarinda" />
+      <button id="showBtn">Tampilkan Cuaca</button>
+    </div>
+
+    <div id="result" class="result hidden">
+      <h2 id="cityName"></h2>
+      <p id="temp"></p>
+      <p id="condition"></p>
+    </div>
+  </div>
+
+  <!-- Panggil JS -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
